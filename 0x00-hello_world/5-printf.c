@@ -1,9 +1,9 @@
 #include <stdio.h>
-/* main is the beginning of a program*/
-/*return: returns 0 if no errors*/
-int main(void)/*main the beginning of a c program*/
-	/*the main function the beginning of a program*/
-{
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+/*
+ * main is the entry point of each c program
+ * return prints 0 if there are no errors
+ */
+int main(void){
+        printf("with the proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
