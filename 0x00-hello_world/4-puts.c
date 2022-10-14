@@ -1,11 +1,10 @@
 #include <stdio.h>
-/*main is the beginning of a program in C*/
-/*puts function prints the output of a program*/
+/**
+ * main - Entry point
+ * Return: Always returns a value 0
+ */
 int main(void)
-	/*main function is very crucial to a C program*/
 {
-	char MyStr[] = "Programming is like building a multilingual puzzle";
-
-	puts(MyStr);
+	puts("\"Programming is like building a multilingual puzzle");
 		return (0);
 }
