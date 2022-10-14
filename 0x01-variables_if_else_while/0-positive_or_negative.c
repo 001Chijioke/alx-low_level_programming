@@ -2,14 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * This program generates random numbers and tells their value
- * which could be positive or negative or zero
+ * main - marks the beginning of a C code
+ * Return: prints 0 when true
  */
 int main(void)
-{     
-       /**
-	* main - marks the beginning of a C code
-	*/	
+{
 	int n;
 
 	srand(time(0));
