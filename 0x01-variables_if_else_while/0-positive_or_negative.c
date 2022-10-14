@@ -3,13 +3,13 @@
 #include <stdio.h>
 /**
  * This program generates random numbers and tells their value
- * Return: Usually returns 0 when true
+ * which could be positive or negative or zero
  */
 int main(void)
-{ /**
-    *main - the beginning of each C programme
-    *Return: Always 0
-    */
+{     
+       /**
+	* main - marks the beginning of a C code
+	*/	
 	int n;
 
 	srand(time(0));
