@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * main - prints the all single digits of base 10
+ * main - prints the alphabet in reverse order
  * Return: returns a value of zero
  */
 int main(void)
 {
-	int n;
+	char ch;
 
-	for (n = '0'; n = '10'; n++)
+	for (ch = 'z'; ch = 'a'; ch--)
 	{
-		putchar(n);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
