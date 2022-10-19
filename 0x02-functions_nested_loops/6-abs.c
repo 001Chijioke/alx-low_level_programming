@@ -1,11 +1,13 @@
 #include "main.h"
 /**
  * _abs - prints the absolute value of an integer
- * @n: is the input integer
- * Return: Always 0
+ * @n: the absolute value to be computed
+ * Return: returns the absolute value
  */
 int _abs(int n)
 {
-	n = (n * n) / 2;
-	_putchar('n');
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
 }
