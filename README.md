@@ -1,1 +1,1 @@
-Programming in C is fun
+This repository contains four alx task on debugging and rubber ducking
