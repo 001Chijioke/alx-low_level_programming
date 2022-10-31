@@ -8,10 +8,8 @@
  */
 char *_strchr(char *s, char c)
 {
-	int a;
-	int b;
+	int a = 0, b;
 
-	a = 0;
 	while (s[a])
 	{
 		a++;
