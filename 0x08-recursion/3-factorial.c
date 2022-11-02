@@ -17,4 +17,5 @@ int factorial(int n)
 	{
 		return (1);
 	}
+	return (factorial);
 }
