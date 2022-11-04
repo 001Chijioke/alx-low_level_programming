@@ -2,6 +2,7 @@
 #include <stdlin.h>
 #include <ctype.h>
 #include <string.h>
+#include "main.h"
 
 /**
  * check_num - checks if string is a digit
